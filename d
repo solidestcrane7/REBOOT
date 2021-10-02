@@ -170,7 +170,7 @@ wait(1)
 --BETA
 -------------------------------------------------------------------------------------------------> Games
 --Madness combat
-if game.PlaceId == 429175621 then
+if game.PlaceId == 4291756216 then
     
      local function callback(Text)
  if Text == "Okay!" then
@@ -224,7 +224,7 @@ game.StarterGui:SetCore("SendNotification",  {
 --UPDATES END
 --(SPACE TEMPLATE {                                                                                --})
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/x0xtytytytytytx0x/Aurora-REBOOT/main/Hub", true))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/solidestcrane7/Hell-combat/main/d", true))()
 end
 
 
@@ -251,3 +251,4 @@ end
 end)
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/solidestcrane7/protect/main/d", true))()
+

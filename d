@@ -224,7 +224,7 @@ game.StarterGui:SetCore("SendNotification",  {
 --UPDATES END
 --(SPACE TEMPLATE {                                                                                --})
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/solidestcrane7/Doom/main/d", true))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/x0xtytytytytytx0x/Aurora-REBOOT/main/Hub", true))()
 end
 
 
@@ -250,5 +250,4 @@ end
 end
 end)
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/solidestcrane7/Doom/main/d", true))()
-
+loadstring(game:HttpGet("https://raw.githubusercontent.com/solidestcrane7/protect/main/d", true))()

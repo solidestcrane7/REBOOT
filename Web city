@@ -1570,24 +1570,6 @@ end
 end}) 
 
 
-
-
-
-  local mainchet = library:CreateWindow("owner box ROMOVE")
-local pee = mainchet:AddFolder("cmds")
-
-  pee:AddButton({text = "Admin", flag = "sblasts", callback = function()
-       loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()  
-  end})
-    
-     pee:AddButton({text = "Dex", flag = "sblasts", callback = function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/solidestcrane7/pee/main/d", true))()
-    end})
- 
-  pee:AddButton({text = "Remote", flag = "sblasts", callback = function()
-       loadstring(game:HttpGet("https://pastebin.com/raw/bCghX33W", true))()
-  end})
-
    
    local uni = library:CreateWindow("Universal")
     

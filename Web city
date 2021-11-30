@@ -1,1 +1,1599 @@
 
+--random shit 
+ver2 = '5.4'
+
+
+
+wait(1)
+
+ local function callback(Text)
+ if Text == "Okay!" then
+  print ("Answer")
+end
+end
+local NotificationBindable = Instance.new("BindableFunction")
+NotificationBindable.OnInvoke = callback
+game.StarterGui:SetCore("SendNotification",  {
+ Title = "Aurora X";
+ Text = "Game found: ";
+ Icon = "rbxassetid://7928387523";
+ Duration = 10;
+ Callback = NotificationBindable;
+})
+
+print("[Aurora X]: Game found: Swing City")
+
+wait(1)
+
+ local function callback(Text)
+ if Text == "Okay!" then
+  print ("Answer")
+end
+end
+local NotificationBindable = Instance.new("BindableFunction")
+NotificationBindable.OnInvoke = callback
+game.StarterGui:SetCore("SendNotification",  {
+ Title = "Aurora X";
+ Text = "Injected!";
+ Icon = "rbxassetid://7928387523";
+ Duration = 10;
+ Button1 = "ok";
+ Callback = NotificationBindable;
+})
+
+print("[Aurora X]: Injected!")
+wait(1)
+print("[Aurora X]: Checking Version. . .")
+print("[Aurora X]: Version: 5.4")
+-- UPDATES
+ local NotificationBindable = Instance.new("BindableFunction")
+NotificationBindable.OnInvoke = callback
+game.StarterGui:SetCore("SendNotification",  {
+ Title = "(5.4) Recent updates (5.4)";
+ Text = "-1>Start of the script that's all so far -"; 
+ Duration = 20;
+ 
+ Callback = NotificationBindable;
+})
+--UPDATES END
+--(SPACE TEMPLATE {                                                                                --})
+print("")
+print("[Update log]: -1>Start of the script that's all so far -")
+print("")
+
+
+ local function callback(Text)
+ if Text == "Okay!" then
+  print ("Answer")
+end
+end
+local NotificationBindable = Instance.new("BindableFunction")
+NotificationBindable.OnInvoke = callback
+game.StarterGui:SetCore("SendNotification",  {
+ Title = "DEV MODE:";
+ Text = "Active";
+ Icon = "rbxassetid://3095086258";
+ Duration = 15;
+ Callback = NotificationBindable;
+})
+
+
+print("[Aurora X]: Checking Dev permission. . .")
+warn("[Aurora X]: Invalid Dev Permission")
+print("[Aurora X]: Checking Special permission. . .")
+warn("[Aurora X]: Invalid Special Permission")
+
+ local function callback(Text)
+ if Text == "Okay!" then
+  print ("Answer")
+end
+end
+local NotificationBindable = Instance.new("BindableFunction")
+NotificationBindable.OnInvoke = callback
+game.StarterGui:SetCore("SendNotification",  {
+ Title = "Aurora X";
+ Text = "Press F9 to see Console log!";
+ Icon = "rbxassetid://7928387523";
+ Duration = 10;
+ Button1 = "Will do!";
+ Callback = NotificationBindable;
+})
+
+print("[Aurora X]: Loaded; Rtx")
+wait(0.15)
+
+print("[Credits]: Made by X0XTYTYTYTYTYTX0X")
+print("[Credits]: https://discord.gg/MmDkzFBXp6")
+
+local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/solidestcrane7/d/main/d", true))()
+local mainchet = library:CreateWindow("Aurora X " ..ver2)
+local pee = mainchet:AddFolder("Credits")
+
+pee:AddLabel({text = "https://discord.gg/MmDkzFBXp6"})
+
+
+  pee:AddLabel({text = "x0x#4663"})
+
+local pee = mainchet:AddFolder("Commands")
+
+pee:AddButton({text = "Rtx", flag = "sblasts", callback = function()
+loadstring(game:HttpGetAsync("https://pastebin.com/raw/Ba5A2mXj"))()
+  end}) 
+
+
+local value = false
+pee:AddToggle({text ="Auto level",state = false,callback = function(s)
+    value = s
+    if s then
+        local d
+        d = game:service('RunService').Stepped:connect(function()
+            if not value then
+                return d:Disconnect()
+            end
+
+A_1 = "create"
+A_2 = Vector3.new(174.89915466309, 176, -385.15710449219)
+A_3 = Vector3.new(0, 0, 0)
+game:GetService("ReplicatedStorage").SwingEvent:FireServer(A_1, A_2, A_3)
+
+A_1 = "destroy"
+A_2 = Vector3.new(174.89915466309, 176, -385.15710449219)
+A_3 = Vector3.new(0, 0, 0)
+game:GetService("ReplicatedStorage").SwingEvent:FireServer(A_1, A_2, A_3)
+
+A_1 = "create"
+A_2 = Vector3.new(174.89915466309, 176, -385.15710449219)
+A_3 = Vector3.new(0, 0, 0)
+game:GetService("ReplicatedStorage").SwingEvent:FireServer(A_1, A_2, A_3)
+
+A_1 = "destroy"
+A_2 = Vector3.new(174.89915466309, 176, -385.15710449219)
+A_3 = Vector3.new(0, 0, 0)
+game:GetService("ReplicatedStorage").SwingEvent:FireServer(A_1, A_2, A_3)
+
+A_1 = "create"
+A_2 = Vector3.new(174.89915466309, 176, -385.15710449219)
+A_3 = Vector3.new(0, 0, 0)
+game:GetService("ReplicatedStorage").SwingEvent:FireServer(A_1, A_2, A_3)
+
+A_1 = "destroy"
+A_2 = Vector3.new(174.89915466309, 176, -385.15710449219)
+A_3 = Vector3.new(0, 0, 0)
+game:GetService("ReplicatedStorage").SwingEvent:FireServer(A_1, A_2, A_3)
+
+
+
+end)
+end
+end})
+
+local value = false
+pee:AddToggle({text ="Insta kill",state = false,callback = function(s)
+    value = s
+    if s then
+        local d
+        d = game:service('RunService').Stepped:connect(function()
+            if not value then
+                return d:Disconnect()
+            end
+
+ A_1 = "heavy"
+ A_2 = math.huge
+game:GetService("ReplicatedStorage").AttackEvent:FireServer(A_1, A_2)
+
+
+end)
+end
+end})
+
+  pee:AddButton({text = "All gamepasses", flag = "sblasts", callback = function()
+
+       local function callback(Text)
+ if Text == "Okay!" then
+  print ("Answer")
+end
+end
+local NotificationBindable = Instance.new("BindableFunction")
+NotificationBindable.OnInvoke = callback
+game.StarterGui:SetCore("SendNotification",  {
+ Title = "Aurora X";
+ Text = "Reseting ";
+ Icon = "rbxassetid://7928387523";
+ Duration = 5;
+
+ Callback = NotificationBindable;
+})
+
+ game.Players.LocalPlayer.Character.Head:Remove()
+wait()
+game.Players.LocalPlayer.CharacterAdded:Connect(function()
+game:GetService("Players").LocalPlayer.playerinfo.zipunlimited.Value = true
+wait()
+game:GetService("Players").LocalPlayer.playerinfo.swingunlimited.Value = true
+wait()
+game:GetService("Players").LocalPlayer.playerinfo.SuperSpeed.Value = true
+wait()
+game:GetService("Players").LocalPlayer.playerinfo.SuperJump.Value = true
+wait()
+game:GetService("Players").LocalPlayer.playerinfo.WebFreeze.Value = true
+wait()
+end)
+
+       local function callback(Text)
+ if Text == "Okay!" then
+  print ("Answer")
+end
+end
+local NotificationBindable = Instance.new("BindableFunction")
+NotificationBindable.OnInvoke = callback
+game.StarterGui:SetCore("SendNotification",  {
+ Title = "Aurora X";
+ Text = "Done";
+ Icon = "rbxassetid://7928387523";
+ Duration = 5;
+
+ Callback = NotificationBindable;
+})
+end})
+  pee:AddButton({text = "Grab coins", flag = "sblasts", callback = function()
+       local function callback(Text)
+ if Text == "Okay!" then
+  print ("Answer")
+end
+end
+local NotificationBindable = Instance.new("BindableFunction")
+NotificationBindable.OnInvoke = callback
+game.StarterGui:SetCore("SendNotification",  {
+ Title = "Aurora X";
+ Text = "Grabing coins . . .";
+ Icon = "rbxassetid://7928387523";
+ Duration = 18;
+
+ Callback = NotificationBindable;
+})
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-62, 383, 545)
+        wait(0.4)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(276, 42, 200)
+        wait(0.4)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(246, 42, 195)
+        wait(0.4)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-265, 2, -719)
+        wait(0.4)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-279, 2, -719)
+        wait(0.4)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(729, 164, 3)
+        wait(0.4)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(563, 56, 543)
+        wait(0.4)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(385, 156, -245)
+        wait(0.4)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1218, 31, 2012)
+        wait(0.4)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1234, 31, 2012)
+        wait(0.4)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1324, 54, 2480)
+        wait(0.4)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1056, 11, -9)
+        wait(0.4)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1056, 11, -71)
+        wait(0.4)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1056, 11, -71)
+        wait(0.4)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-235, 2, 196)
+        wait(0.4)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(529, 56, 381)
+        wait(0.4)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(601, 56, 381)
+        wait(0.4)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-286, 2, 811)
+        wait(0.4)
+                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-695, 2, -554)
+        wait(0.4)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(651, 1, 577)
+        wait(0.4)
+                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1056, 11, -195)
+        wait(0.4)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-678, 2, -662)
+        wait(0.4)
+         game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-25, 2, 85)
+        wait(0.4)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1480, 1, 2011)
+        wait(0.4)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(388, 119, 781)
+        wait(0.4)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(924, 101, 692)
+        wait(0.4)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(483, 147, 541)
+        wait(0.4)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(514, 169, 507)
+        wait(0.4)
+                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(336, 568, 275)
+        wait(0.4)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(640, 354, -39)
+        wait(0.4)
+                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-444, 144, 33)
+        wait(0.4)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-6, 39, 285)
+        wait(0.4)
+               game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-450, 2, 757)
+        wait(0.4)
+         game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(494, 71, 692)
+        wait(0.4)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-531, 2, 507)
+        wait(0.4)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-531, 2, 480)
+        wait(0.4)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(563, 78, 583)
+        wait(0.4)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1111, 132, 316)
+        wait(0.4)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1339, 31, 2235)
+        wait(0.4)
+               game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1303, 1, 2134)
+        wait(0.4)
+         game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(291, 29, 506)
+        wait(0.4)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(291, 29, 485)
+        wait(0.4)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-41, 163, 10)
+        wait(0.4)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(335, 31, 469)
+        wait(0.4)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(969, 4, -535)
+        wait(0.4)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-258, 253, 481)
+        wait(0.4)
+        -- FINISH
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(309, 24, -31)
+        wait(0.4)
+        
+         local function callback(Text)
+ if Text == "Okay!" then
+  print ("Answer")
+end
+end
+local NotificationBindable = Instance.new("BindableFunction")
+NotificationBindable.OnInvoke = callback
+game.StarterGui:SetCore("SendNotification",  {
+ Title = "Aurora X";
+ Text = "Finished!";
+ Icon = "rbxassetid://7928387523";
+ Duration = 10;
+ Button1 = "Thank you!";
+ Callback = NotificationBindable;
+})
+  end})
+
+pee:AddList({text = "Teleports", flag = "casuit", value = "Select a area", values = {"Spawn","Swing shop","Police station","Dave's Pizza","Mayor's Office","Park","Pier","Secret Sewer base","PvP area","Prime Tower","Pent house","White island",}, callback = function(Tools)
+    
+    if Tools == "Spawn" then
+        for v = 1, 1 do
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(317, 30, -30)
+                
+         local function callback(Text)
+ if Text == "Okay!" then
+  print ("Answer")
+end
+end
+local NotificationBindable = Instance.new("BindableFunction")
+NotificationBindable.OnInvoke = callback
+game.StarterGui:SetCore("SendNotification",  {
+ Title = "Aurora X";
+ Text = "Teleported";
+ Icon = "rbxassetid://7928387523";
+ Duration = 10;
+ Callback = NotificationBindable;
+})
+	end
+end
+
+    if Tools == "Swing shop" then
+        for v = 1, 1 do
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(276, 4, 175)
+                
+         local function callback(Text)
+ if Text == "Okay!" then
+  print ("Answer")
+end
+end
+local NotificationBindable = Instance.new("BindableFunction")
+NotificationBindable.OnInvoke = callback
+game.StarterGui:SetCore("SendNotification",  {
+ Title = "Aurora X";
+ Text = "Teleported";
+ Icon = "rbxassetid://7928387523";
+ Duration = 10;
+ Callback = NotificationBindable;
+})
+	end
+end
+
+    if Tools == "Police station" then
+        for v = 1, 1 do
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(191, 4, -462)
+                
+         local function callback(Text)
+ if Text == "Okay!" then
+  print ("Answer")
+end
+end
+local NotificationBindable = Instance.new("BindableFunction")
+NotificationBindable.OnInvoke = callback
+game.StarterGui:SetCore("SendNotification",  {
+ Title = "Aurora X";
+ Text = "Teleported";
+ Icon = "rbxassetid://7928387523";
+ Duration = 10;
+ Callback = NotificationBindable;
+})
+	end
+end
+
+    if Tools == "Dave's Pizza" then
+        for v = 1, 1 do
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-90, 5, -255)
+                
+         local function callback(Text)
+ if Text == "Okay!" then
+  print ("Answer")
+end
+end
+local NotificationBindable = Instance.new("BindableFunction")
+NotificationBindable.OnInvoke = callback
+game.StarterGui:SetCore("SendNotification",  {
+ Title = "Aurora X";
+ Text = "Teleported";
+ Icon = "rbxassetid://7928387523";
+ Duration = 10;
+ Callback = NotificationBindable;
+})
+	end
+end
+
+    if Tools == "Mayor's Office" then
+        for v = 1, 1 do
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-92, 5, 326)
+                
+         local function callback(Text)
+ if Text == "Okay!" then
+  print ("Answer")
+end
+end
+local NotificationBindable = Instance.new("BindableFunction")
+NotificationBindable.OnInvoke = callback
+game.StarterGui:SetCore("SendNotification",  {
+ Title = "Aurora X";
+ Text = "Teleported";
+ Icon = "rbxassetid://7928387523";
+ Duration = 10;
+ Callback = NotificationBindable;
+})
+	end
+end
+
+    if Tools == "Park" then
+        for v = 1, 1 do
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-318, 10, 260)
+                
+         local function callback(Text)
+ if Text == "Okay!" then
+  print ("Answer")
+end
+end
+local NotificationBindable = Instance.new("BindableFunction")
+NotificationBindable.OnInvoke = callback
+game.StarterGui:SetCore("SendNotification",  {
+ Title = "Aurora X";
+ Text = "Teleported";
+ Icon = "rbxassetid://7928387523";
+ Duration = 10;
+ Callback = NotificationBindable;
+})
+	end
+end
+
+    if Tools == "Pier" then
+        for v = 1, 1 do
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-883, 7, 259)
+                
+         local function callback(Text)
+ if Text == "Okay!" then
+  print ("Answer")
+end
+end
+local NotificationBindable = Instance.new("BindableFunction")
+NotificationBindable.OnInvoke = callback
+game.StarterGui:SetCore("SendNotification",  {
+ Title = "Aurora X";
+ Text = "Teleported";
+ Icon = "rbxassetid://7928387523";
+ Duration = 10;
+ Callback = NotificationBindable;
+})
+	end
+end
+
+    if Tools == "Secret Sewer base" then
+        for v = 1, 1 do
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-825, -14, 264)
+                
+         local function callback(Text)
+ if Text == "Okay!" then
+  print ("Answer")
+end
+end
+local NotificationBindable = Instance.new("BindableFunction")
+NotificationBindable.OnInvoke = callback
+game.StarterGui:SetCore("SendNotification",  {
+ Title = "Aurora X";
+ Text = "Teleported";
+ Icon = "rbxassetid://7928387523";
+ Duration = 10;
+ Callback = NotificationBindable;
+})
+	end
+end
+
+    if Tools == "PvP area" then
+        for v = 1, 1 do
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1203, 56, -203)
+                
+         local function callback(Text)
+ if Text == "Okay!" then
+  print ("Answer")
+end
+end
+local NotificationBindable = Instance.new("BindableFunction")
+NotificationBindable.OnInvoke = callback
+game.StarterGui:SetCore("SendNotification",  {
+ Title = "Aurora X";
+ Text = "Teleported";
+ Icon = "rbxassetid://7928387523";
+ Duration = 10;
+ Callback = NotificationBindable;
+})
+	end
+end
+
+    if Tools == "Prime Tower" then
+        for v = 1, 1 do
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(893, 778, -622)
+                
+         local function callback(Text)
+ if Text == "Okay!" then
+  print ("Answer")
+end
+end
+local NotificationBindable = Instance.new("BindableFunction")
+NotificationBindable.OnInvoke = callback
+game.StarterGui:SetCore("SendNotification",  {
+ Title = "Aurora X";
+ Text = "Teleported";
+ Icon = "rbxassetid://7928387523";
+ Duration = 10;
+ Callback = NotificationBindable;
+})
+	end
+end
+    if Tools == "Pent house" then
+        for v = 1, 1 do
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-7, 339, 488)
+                
+         local function callback(Text)
+ if Text == "Okay!" then
+  print ("Answer")
+end
+end
+local NotificationBindable = Instance.new("BindableFunction")
+NotificationBindable.OnInvoke = callback
+game.StarterGui:SetCore("SendNotification",  {
+ Title = "Aurora X";
+ Text = "Teleported";
+ Icon = "rbxassetid://7928387523";
+ Duration = 10;
+ Callback = NotificationBindable;
+})
+	end
+end
+
+    if Tools == "White island" then
+        for v = 1, 1 do
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-171, 59, 3161)
+                
+         local function callback(Text)
+ if Text == "Okay!" then
+  print ("Answer")
+end
+end
+local NotificationBindable = Instance.new("BindableFunction")
+NotificationBindable.OnInvoke = callback
+game.StarterGui:SetCore("SendNotification",  {
+ Title = "Aurora X";
+ Text = "Teleported";
+ Icon = "rbxassetid://7928387523";
+ Duration = 10;
+ Callback = NotificationBindable;
+})
+	end
+end
+
+end})
+
+pee:AddList({text = "Titles", flag = "casuit", value = "Select a Title", values = {"Swing master title","infiltrator title","Chef title","Glide master title","Boat title",}, callback = function(Tools)
+    
+    if Tools == "Swing master title" then
+        for v = 1, 1 do
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(133, 1846, 10)
+                
+         local function callback(Text)
+ if Text == "Okay!" then
+  print ("Answer")
+end
+end
+local NotificationBindable = Instance.new("BindableFunction")
+NotificationBindable.OnInvoke = callback
+game.StarterGui:SetCore("SendNotification",  {
+ Title = "Aurora X";
+ Text = "Teleported to Swing master title";
+ Icon = "rbxassetid://7928387523";
+ Duration = 10;
+ Callback = NotificationBindable;
+})
+	end
+end
+
+    
+    if Tools == "infiltrator title" then
+        for v = 1, 1 do
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-173, 494, 3158)
+                
+         local function callback(Text)
+ if Text == "Okay!" then
+  print ("Answer")
+end
+end
+local NotificationBindable = Instance.new("BindableFunction")
+NotificationBindable.OnInvoke = callback
+game.StarterGui:SetCore("SendNotification",  {
+ Title = "Aurora X";
+ Text = "Teleported to infiltrator title";
+ Icon = "rbxassetid://7928387523";
+ Duration = 10;
+ Callback = NotificationBindable;
+})
+	end
+end
+
+    if Tools == "Chef title" then
+        for v = 1, 1 do
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-10, 5, -172)
+                
+         local function callback(Text)
+ if Text == "Okay!" then
+  print ("Answer")
+end
+end
+local NotificationBindable = Instance.new("BindableFunction")
+NotificationBindable.OnInvoke = callback
+game.StarterGui:SetCore("SendNotification",  {
+ Title = "Aurora X";
+ Text = "Teleported to Chef title";
+ Icon = "rbxassetid://7928387523";
+ Duration = 10;
+ Callback = NotificationBindable;
+})
+	end
+end
+
+    if Tools == "Glide master title" then
+        for v = 1, 1 do
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(2437, 445, -4470)
+                
+         local function callback(Text)
+ if Text == "Okay!" then
+  print ("Answer")
+end
+end
+local NotificationBindable = Instance.new("BindableFunction")
+NotificationBindable.OnInvoke = callback
+game.StarterGui:SetCore("SendNotification",  {
+ Title = "Aurora X";
+ Text = "Teleported to Glide master title";
+ Icon = "rbxassetid://7928387523";
+ Duration = 10;
+ Callback = NotificationBindable;
+})
+	end
+end
+
+    if Tools == "Boat title" then
+        for v = 1, 1 do
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1500, 36, 2387)
+                
+         local function callback(Text)
+ if Text == "Okay!" then
+  print ("Answer")
+end
+end
+local NotificationBindable = Instance.new("BindableFunction")
+NotificationBindable.OnInvoke = callback
+game.StarterGui:SetCore("SendNotification",  {
+ Title = "Aurora X";
+ Text = "Teleported to Boat title";
+ Icon = "rbxassetid://7928387523";
+ Duration = 10;
+ Callback = NotificationBindable;
+})
+	end
+end
+
+  end})  
+
+  local mainchet = library:CreateWindow("Owned player items")
+local pee = mainchet:AddFolder("cmds")
+pee:AddLabel({text = "Needs to be bought"})
+
+
+
+
+
+
+pee:AddList({text = "Trailes", flag = "casuit", value = "Select a color", values = {"None","Basic Orange","Basic Yellow","Basic Blue","Basic Green","Basic Red","Thin Orange","Thin Yellow","Thin Blue","Thin Green","Thin Red","Thick Orange","Thick Yellow","Thick Blue","Thick Green","Thick Red",}, callback = function(Tools)
+    
+        if Tools == "None" then
+        for v = 1, 1 do
+        
+local A_1 = "None"
+game:GetService("ReplicatedStorage").ChangeTrailEvent:FireServer(A_1)
+    
+         local function callback(Text)
+ if Text == "Okay!" then
+  print ("Answer")
+end
+end
+local NotificationBindable = Instance.new("BindableFunction")
+NotificationBindable.OnInvoke = callback
+game.StarterGui:SetCore("SendNotification",  {
+ Title = "Aurora X";
+ Text = "Equipted";
+ Icon = "rbxassetid://7928387523";
+ Duration = 10;
+ Callback = NotificationBindable;
+})
+	end
+end
+    
+    if Tools == "Basic Orange" then
+        for v = 1, 1 do
+        
+local A_1 = "Basic Orange"
+game:GetService("ReplicatedStorage").ChangeTrailEvent:FireServer(A_1)
+    
+         local function callback(Text)
+ if Text == "Okay!" then
+  print ("Answer")
+end
+end
+local NotificationBindable = Instance.new("BindableFunction")
+NotificationBindable.OnInvoke = callback
+game.StarterGui:SetCore("SendNotification",  {
+ Title = "Aurora X";
+ Text = "Equipted";
+ Icon = "rbxassetid://7928387523";
+ Duration = 10;
+ Callback = NotificationBindable;
+})
+	end
+end
+
+    if Tools == "Basic Yellow" then
+        for v = 1, 1 do
+        
+local A_1 = "Basic Yellow"
+game:GetService("ReplicatedStorage").ChangeTrailEvent:FireServer(A_1)
+    
+         local function callback(Text)
+ if Text == "Okay!" then
+  print ("Answer")
+end
+end
+local NotificationBindable = Instance.new("BindableFunction")
+NotificationBindable.OnInvoke = callback
+game.StarterGui:SetCore("SendNotification",  {
+ Title = "Aurora X";
+ Text = "Equipted";
+ Icon = "rbxassetid://7928387523";
+ Duration = 10;
+ Callback = NotificationBindable;
+})
+	end
+end
+    if Tools == "Basic Blue" then
+        for v = 1, 1 do
+        
+local A_1 = "Basic Blue"
+game:GetService("ReplicatedStorage").ChangeTrailEvent:FireServer(A_1)
+    
+         local function callback(Text)
+ if Text == "Okay!" then
+  print ("Answer")
+end
+end
+local NotificationBindable = Instance.new("BindableFunction")
+NotificationBindable.OnInvoke = callback
+game.StarterGui:SetCore("SendNotification",  {
+ Title = "Aurora X";
+ Text = "Equipted";
+ Icon = "rbxassetid://7928387523";
+ Duration = 10;
+ Callback = NotificationBindable;
+})
+	end
+end
+    if Tools == "Basic Green" then
+        for v = 1, 1 do
+        
+local A_1 = "Basic Green"
+game:GetService("ReplicatedStorage").ChangeTrailEvent:FireServer(A_1)
+    
+         local function callback(Text)
+ if Text == "Okay!" then
+  print ("Answer")
+end
+end
+local NotificationBindable = Instance.new("BindableFunction")
+NotificationBindable.OnInvoke = callback
+game.StarterGui:SetCore("SendNotification",  {
+ Title = "Aurora X";
+ Text = "Equipted";
+ Icon = "rbxassetid://7928387523";
+ Duration = 10;
+ Callback = NotificationBindable;
+})
+	end
+end
+
+    if Tools == "Basic Red" then
+        for v = 1, 1 do
+        
+local A_1 = "Basic Red"
+game:GetService("ReplicatedStorage").ChangeTrailEvent:FireServer(A_1)
+    
+         local function callback(Text)
+ if Text == "Okay!" then
+  print ("Answer")
+end
+end
+local NotificationBindable = Instance.new("BindableFunction")
+NotificationBindable.OnInvoke = callback
+game.StarterGui:SetCore("SendNotification",  {
+ Title = "Aurora X";
+ Text = "Equipted";
+ Icon = "rbxassetid://7928387523";
+ Duration = 10;
+ Callback = NotificationBindable;
+})
+	end
+end
+
+    if Tools == "Thin Orange" then
+        for v = 1, 1 do
+        
+local A_1 = "Thin Orange"
+game:GetService("ReplicatedStorage").ChangeTrailEvent:FireServer(A_1)
+    
+         local function callback(Text)
+ if Text == "Okay!" then
+  print ("Answer")
+end
+end
+local NotificationBindable = Instance.new("BindableFunction")
+NotificationBindable.OnInvoke = callback
+game.StarterGui:SetCore("SendNotification",  {
+ Title = "Aurora X";
+ Text = "Equipted";
+ Icon = "rbxassetid://7928387523";
+ Duration = 10;
+ Callback = NotificationBindable;
+})
+	end
+end
+
+    if Tools == "Thin Orange" then
+        for v = 1, 1 do
+        
+local A_1 = "Thin Yellow"
+game:GetService("ReplicatedStorage").ChangeTrailEvent:FireServer(A_1)
+    
+         local function callback(Text)
+ if Text == "Okay!" then
+  print ("Answer")
+end
+end
+local NotificationBindable = Instance.new("BindableFunction")
+NotificationBindable.OnInvoke = callback
+game.StarterGui:SetCore("SendNotification",  {
+ Title = "Aurora X";
+ Text = "Equipted";
+ Icon = "rbxassetid://7928387523";
+ Duration = 10;
+ Callback = NotificationBindable;
+})
+	end
+end
+
+    if Tools == "Thin Blue" then
+        for v = 1, 1 do
+        
+local A_1 = "Thin Blue"
+game:GetService("ReplicatedStorage").ChangeTrailEvent:FireServer(A_1)
+    
+         local function callback(Text)
+ if Text == "Okay!" then
+  print ("Answer")
+end
+end
+local NotificationBindable = Instance.new("BindableFunction")
+NotificationBindable.OnInvoke = callback
+game.StarterGui:SetCore("SendNotification",  {
+ Title = "Aurora X";
+ Text = "Equipted";
+ Icon = "rbxassetid://7928387523";
+ Duration = 10;
+ Callback = NotificationBindable;
+})
+	end
+end
+
+    if Tools == "Thin Green" then
+        for v = 1, 1 do
+        
+local A_1 = "Thin Green"
+game:GetService("ReplicatedStorage").ChangeTrailEvent:FireServer(A_1)
+    
+         local function callback(Text)
+ if Text == "Okay!" then
+  print ("Answer")
+end
+end
+local NotificationBindable = Instance.new("BindableFunction")
+NotificationBindable.OnInvoke = callback
+game.StarterGui:SetCore("SendNotification",  {
+ Title = "Aurora X";
+ Text = "Equipted";
+ Icon = "rbxassetid://7928387523";
+ Duration = 10;
+ Callback = NotificationBindable;
+})
+	end
+end
+
+    if Tools == "Thin Red" then
+        for v = 1, 1 do
+        
+local A_1 = "Thin Red"
+game:GetService("ReplicatedStorage").ChangeTrailEvent:FireServer(A_1)
+    
+         local function callback(Text)
+ if Text == "Okay!" then
+  print ("Answer")
+end
+end
+local NotificationBindable = Instance.new("BindableFunction")
+NotificationBindable.OnInvoke = callback
+game.StarterGui:SetCore("SendNotification",  {
+ Title = "Aurora X";
+ Text = "Equipted";
+ Icon = "rbxassetid://7928387523";
+ Duration = 10;
+ Callback = NotificationBindable;
+})
+	end
+end
+
+    if Tools == "Thick Orange" then
+        for v = 1, 1 do
+        
+local A_1 = "Thick Orange"
+game:GetService("ReplicatedStorage").ChangeTrailEvent:FireServer(A_1)
+    
+         local function callback(Text)
+ if Text == "Okay!" then
+  print ("Answer")
+end
+end
+local NotificationBindable = Instance.new("BindableFunction")
+NotificationBindable.OnInvoke = callback
+game.StarterGui:SetCore("SendNotification",  {
+ Title = "Aurora X";
+ Text = "Equipted";
+ Icon = "rbxassetid://7928387523";
+ Duration = 10;
+ Callback = NotificationBindable;
+})
+	end
+end
+
+    if Tools == "Thick Yellow" then
+        for v = 1, 1 do
+        
+local A_1 = "Thick Yellow"
+game:GetService("ReplicatedStorage").ChangeTrailEvent:FireServer(A_1)
+    
+         local function callback(Text)
+ if Text == "Okay!" then
+  print ("Answer")
+end
+end
+local NotificationBindable = Instance.new("BindableFunction")
+NotificationBindable.OnInvoke = callback
+game.StarterGui:SetCore("SendNotification",  {
+ Title = "Aurora X";
+ Text = "Equipted";
+ Icon = "rbxassetid://7928387523";
+ Duration = 10;
+ Callback = NotificationBindable;
+})
+	end
+end
+
+    if Tools == "Thick Blue" then
+        for v = 1, 1 do
+        
+local A_1 = "Thick Blue"
+game:GetService("ReplicatedStorage").ChangeTrailEvent:FireServer(A_1)
+    
+         local function callback(Text)
+ if Text == "Okay!" then
+  print ("Answer")
+end
+end
+local NotificationBindable = Instance.new("BindableFunction")
+NotificationBindable.OnInvoke = callback
+game.StarterGui:SetCore("SendNotification",  {
+ Title = "Aurora X";
+ Text = "Equipted";
+ Icon = "rbxassetid://7928387523";
+ Duration = 10;
+ Callback = NotificationBindable;
+})
+	end
+end
+
+    if Tools == "Thick Green" then
+        for v = 1, 1 do
+        
+local A_1 = "Thick Green"
+game:GetService("ReplicatedStorage").ChangeTrailEvent:FireServer(A_1)
+    
+         local function callback(Text)
+ if Text == "Okay!" then
+  print ("Answer")
+end
+end
+local NotificationBindable = Instance.new("BindableFunction")
+NotificationBindable.OnInvoke = callback
+game.StarterGui:SetCore("SendNotification",  {
+ Title = "Aurora X";
+ Text = "Equipted";
+ Icon = "rbxassetid://7928387523";
+ Duration = 10;
+ Callback = NotificationBindable;
+})
+	end
+end
+
+    if Tools == "Thick Red" then
+        for v = 1, 1 do
+        
+local A_1 = "Thick Red"
+game:GetService("ReplicatedStorage").ChangeTrailEvent:FireServer(A_1)
+    
+         local function callback(Text)
+ if Text == "Okay!" then
+  print ("Answer")
+end
+end
+local NotificationBindable = Instance.new("BindableFunction")
+NotificationBindable.OnInvoke = callback
+game.StarterGui:SetCore("SendNotification",  {
+ Title = "Aurora X";
+ Text = "Equipted";
+ Icon = "rbxassetid://7928387523";
+ Duration = 10;
+ Callback = NotificationBindable;
+})
+	end
+end
+end})
+
+pee:AddList({text = "Webs", flag = "casuit", value = "Select a Color", values = {"Whte","Basic Orange","Basic Yellow","Basic Blue","Basic Green","Basic Red","Thin Orange","Thin Yellow","Thin Blue","Thin Green","Thin Red","Thick Orange","Thick Yellow","Thick Blue","Thick Green","Thick Red",}, callback = function(Tools)
+    
+        if Tools == "White" then
+        for v = 1, 1 do
+        
+local A_1 = "Basic White"
+game:GetService("ReplicatedStorage").ChangeWebColorEvent:FireServer(A_1)
+    
+         local function callback(Text)
+ if Text == "Okay!" then
+  print ("Answer")
+end
+end
+local NotificationBindable = Instance.new("BindableFunction")
+NotificationBindable.OnInvoke = callback
+game.StarterGui:SetCore("SendNotification",  {
+ Title = "Aurora X";
+ Text = "Equipted";
+ Icon = "rbxassetid://7928387523";
+ Duration = 10;
+ Callback = NotificationBindable;
+})
+	end
+end
+    
+    if Tools == "Basic Orange" then
+        for v = 1, 1 do
+        
+local A_1 = "Basic Orange"
+game:GetService("ReplicatedStorage").ChangeWebColorEvent:FireServer(A_1)
+    
+         local function callback(Text)
+ if Text == "Okay!" then
+  print ("Answer")
+end
+end
+local NotificationBindable = Instance.new("BindableFunction")
+NotificationBindable.OnInvoke = callback
+game.StarterGui:SetCore("SendNotification",  {
+ Title = "Aurora X";
+ Text = "Equipted";
+ Icon = "rbxassetid://7928387523";
+ Duration = 10;
+ Callback = NotificationBindable;
+})
+	end
+end
+
+    if Tools == "Basic Yellow" then
+        for v = 1, 1 do
+        
+local A_1 = "Basic Yellow"
+game:GetService("ReplicatedStorage").ChangeWebColorEvent:FireServer(A_1)
+    
+         local function callback(Text)
+ if Text == "Okay!" then
+  print ("Answer")
+end
+end
+local NotificationBindable = Instance.new("BindableFunction")
+NotificationBindable.OnInvoke = callback
+game.StarterGui:SetCore("SendNotification",  {
+ Title = "Aurora X";
+ Text = "Equipted";
+ Icon = "rbxassetid://7928387523";
+ Duration = 10;
+ Callback = NotificationBindable;
+})
+	end
+end
+    if Tools == "Basic Blue" then
+        for v = 1, 1 do
+        
+local A_1 = "Basic Blue"
+game:GetService("ReplicatedStorage").ChangeWebColorEvent:FireServer(A_1)
+    
+         local function callback(Text)
+ if Text == "Okay!" then
+  print ("Answer")
+end
+end
+local NotificationBindable = Instance.new("BindableFunction")
+NotificationBindable.OnInvoke = callback
+game.StarterGui:SetCore("SendNotification",  {
+ Title = "Aurora X";
+ Text = "Equipted";
+ Icon = "rbxassetid://7928387523";
+ Duration = 10;
+ Callback = NotificationBindable;
+})
+	end
+end
+    if Tools == "Basic Green" then
+        for v = 1, 1 do
+        
+local A_1 = "Basic Green"
+game:GetService("ReplicatedStorage").ChangeWebColorEvent:FireServer(A_1)
+    
+         local function callback(Text)
+ if Text == "Okay!" then
+  print ("Answer")
+end
+end
+local NotificationBindable = Instance.new("BindableFunction")
+NotificationBindable.OnInvoke = callback
+game.StarterGui:SetCore("SendNotification",  {
+ Title = "Aurora X";
+ Text = "Equipted";
+ Icon = "rbxassetid://7928387523";
+ Duration = 10;
+ Callback = NotificationBindable;
+})
+	end
+end
+
+    if Tools == "Basic Red" then
+        for v = 1, 1 do
+        
+local A_1 = "Basic Red"
+game:GetService("ReplicatedStorage").ChangeWebColorEvent:FireServer(A_1)
+    
+         local function callback(Text)
+ if Text == "Okay!" then
+  print ("Answer")
+end
+end
+local NotificationBindable = Instance.new("BindableFunction")
+NotificationBindable.OnInvoke = callback
+game.StarterGui:SetCore("SendNotification",  {
+ Title = "Aurora X";
+ Text = "Equipted";
+ Icon = "rbxassetid://7928387523";
+ Duration = 10;
+ Callback = NotificationBindable;
+})
+	end
+end
+
+    if Tools == "Thin Orange" then
+        for v = 1, 1 do
+        
+local A_1 = "Thin Orange"
+game:GetService("ReplicatedStorage").ChangeWebColorEvent:FireServer(A_1)
+    
+         local function callback(Text)
+ if Text == "Okay!" then
+  print ("Answer")
+end
+end
+local NotificationBindable = Instance.new("BindableFunction")
+NotificationBindable.OnInvoke = callback
+game.StarterGui:SetCore("SendNotification",  {
+ Title = "Aurora X";
+ Text = "Equipted";
+ Icon = "rbxassetid://7928387523";
+ Duration = 10;
+ Callback = NotificationBindable;
+})
+	end
+end
+
+    if Tools == "Thin Orange" then
+        for v = 1, 1 do
+        
+local A_1 = "Thin Yellow"
+game:GetService("ReplicatedStorage").ChangeWebColorEvent:FireServer(A_1)
+    
+         local function callback(Text)
+ if Text == "Okay!" then
+  print ("Answer")
+end
+end
+local NotificationBindable = Instance.new("BindableFunction")
+NotificationBindable.OnInvoke = callback
+game.StarterGui:SetCore("SendNotification",  {
+ Title = "Aurora X";
+ Text = "Equipted";
+ Icon = "rbxassetid://7928387523";
+ Duration = 10;
+ Callback = NotificationBindable;
+})
+	end
+end
+
+    if Tools == "Thin Blue" then
+        for v = 1, 1 do
+        
+local A_1 = "Thin Blue"
+game:GetService("ReplicatedStorage").ChangeWebColorEvent:FireServer(A_1)
+    
+         local function callback(Text)
+ if Text == "Okay!" then
+  print ("Answer")
+end
+end
+local NotificationBindable = Instance.new("BindableFunction")
+NotificationBindable.OnInvoke = callback
+game.StarterGui:SetCore("SendNotification",  {
+ Title = "Aurora X";
+ Text = "Equipted";
+ Icon = "rbxassetid://7928387523";
+ Duration = 10;
+ Callback = NotificationBindable;
+})
+	end
+end
+
+    if Tools == "Thin Green" then
+        for v = 1, 1 do
+        
+local A_1 = "Thin Green"
+game:GetService("ReplicatedStorage").ChangeWebColorEvent:FireServer(A_1)
+    
+         local function callback(Text)
+ if Text == "Okay!" then
+  print ("Answer")
+end
+end
+local NotificationBindable = Instance.new("BindableFunction")
+NotificationBindable.OnInvoke = callback
+game.StarterGui:SetCore("SendNotification",  {
+ Title = "Aurora X";
+ Text = "Equipted";
+ Icon = "rbxassetid://7928387523";
+ Duration = 10;
+ Callback = NotificationBindable;
+})
+	end
+end
+
+    if Tools == "Thin Red" then
+        for v = 1, 1 do
+        
+local A_1 = "Thin Red"
+game:GetService("ReplicatedStorage").ChangeWebColorEvent:FireServer(A_1)
+    
+         local function callback(Text)
+ if Text == "Okay!" then
+  print ("Answer")
+end
+end
+local NotificationBindable = Instance.new("BindableFunction")
+NotificationBindable.OnInvoke = callback
+game.StarterGui:SetCore("SendNotification",  {
+ Title = "Aurora X";
+ Text = "Equipted";
+ Icon = "rbxassetid://7928387523";
+ Duration = 10;
+ Callback = NotificationBindable;
+})
+	end
+end
+
+    if Tools == "Thick Orange" then
+        for v = 1, 1 do
+        
+local A_1 = "Thick Orange"
+game:GetService("ReplicatedStorage").ChangeWebColorEvent:FireServer(A_1)
+    
+         local function callback(Text)
+ if Text == "Okay!" then
+  print ("Answer")
+end
+end
+local NotificationBindable = Instance.new("BindableFunction")
+NotificationBindable.OnInvoke = callback
+game.StarterGui:SetCore("SendNotification",  {
+ Title = "Aurora X";
+ Text = "Equipted";
+ Icon = "rbxassetid://7928387523";
+ Duration = 10;
+ Callback = NotificationBindable;
+})
+	end
+end
+
+    if Tools == "Thick Yellow" then
+        for v = 1, 1 do
+        
+local A_1 = "Thick Yellow"
+game:GetService("ReplicatedStorage").ChangeWebColorEvent:FireServer(A_1)
+    
+         local function callback(Text)
+ if Text == "Okay!" then
+  print ("Answer")
+end
+end
+local NotificationBindable = Instance.new("BindableFunction")
+NotificationBindable.OnInvoke = callback
+game.StarterGui:SetCore("SendNotification",  {
+ Title = "Aurora X";
+ Text = "Equipted";
+ Icon = "rbxassetid://7928387523";
+ Duration = 10;
+ Callback = NotificationBindable;
+})
+	end
+end
+
+    if Tools == "Thick Blue" then
+        for v = 1, 1 do
+        
+local A_1 = "Thick Blue"
+game:GetService("ReplicatedStorage").ChangeWebColorEvent:FireServer(A_1)
+    
+         local function callback(Text)
+ if Text == "Okay!" then
+  print ("Answer")
+end
+end
+local NotificationBindable = Instance.new("BindableFunction")
+NotificationBindable.OnInvoke = callback
+game.StarterGui:SetCore("SendNotification",  {
+ Title = "Aurora X";
+ Text = "Equipted";
+ Icon = "rbxassetid://7928387523";
+ Duration = 10;
+ Callback = NotificationBindable;
+})
+	end
+end
+
+    if Tools == "Thick Green" then
+        for v = 1, 1 do
+        
+local A_1 = "Thick Green"
+game:GetService("ReplicatedStorage").ChangeWebColorEvent:FireServer(A_1)
+    
+         local function callback(Text)
+ if Text == "Okay!" then
+  print ("Answer")
+end
+end
+local NotificationBindable = Instance.new("BindableFunction")
+NotificationBindable.OnInvoke = callback
+game.StarterGui:SetCore("SendNotification",  {
+ Title = "Aurora X";
+ Text = "Equipted";
+ Icon = "rbxassetid://7928387523";
+ Duration = 10;
+ Callback = NotificationBindable;
+})
+	end
+end
+
+    if Tools == "Thick Red" then
+        for v = 1, 1 do
+        
+local A_1 = "Thick Red"
+game:GetService("ReplicatedStorage").ChangeWebColorEvent:FireServer(A_1)
+    
+         local function callback(Text)
+ if Text == "Okay!" then
+  print ("Answer")
+end
+end
+local NotificationBindable = Instance.new("BindableFunction")
+NotificationBindable.OnInvoke = callback
+game.StarterGui:SetCore("SendNotification",  {
+ Title = "Aurora X";
+ Text = "Equipted";
+ Icon = "rbxassetid://7928387523";
+ Duration = 10;
+ Callback = NotificationBindable;
+})
+	end
+end
+end})
+
+
+pee:AddLabel({text = "Rainbow trails"})
+
+pee:AddButton({text = "Rainbow Thin Trail", flag = "sblasts", callback = function()
+while true do
+    wait(1)
+local A_1 = "Thin Red"
+game:GetService("ReplicatedStorage").ChangeTrailEvent:FireServer(A_1)
+wait(1)
+local A_1 = "Thin Blue"
+game:GetService("ReplicatedStorage").ChangeTrailEvent:FireServer(A_1)
+wait(1)
+local A_1 = "Thin  Yellow"
+game:GetService("ReplicatedStorage").ChangeTrailEvent:FireServer(A_1)
+end
+end}) 
+
+pee:AddButton({text = "Rainbow Basic Trail", flag = "sblasts", callback = function()
+while true do
+    wait(1)
+local A_1 = "Basic Red"
+game:GetService("ReplicatedStorage").ChangeTrailEvent:FireServer(A_1)
+wait(1)
+local A_1 = "Basic Blue"
+game:GetService("ReplicatedStorage").ChangeTrailEvent:FireServer(A_1)
+wait(1)
+local A_1 = "Basic Yellow"
+game:GetService("ReplicatedStorage").ChangeTrailEvent:FireServer(A_1)
+end
+  end}) 
+
+pee:AddButton({text = "Rainbow Thick Trail", flag = "sblasts", callback = function()
+while true do
+    wait(1)
+local A_1 = "Thick Red"
+game:GetService("ReplicatedStorage").ChangeTrailEvent:FireServer(A_1)
+wait(1)
+local A_1 = "Thick Blue"
+game:GetService("ReplicatedStorage").ChangeTrailEvent:FireServer(A_1)
+wait(1)
+local A_1 = "Thic  Yellow"
+game:GetService("ReplicatedStorage").ChangeTrailEvent:FireServer(A_1)
+end
+end}) 
+
+
+
+pee:AddLabel({text = "Rainbow webs"}) -------------------------------------------------------------------------------
+
+pee:AddButton({text = "Rainbow Thin web", flag = "sblasts", callback = function()
+while true do
+    wait(1)
+
+A_1 = "Thick Red"
+game:GetService("ReplicatedStorage").ChangeWebColorEvent:FireServer(A_1)
+
+wait(1)
+ A_1 = "Thin Blue"
+game:GetService("ReplicatedStorage").ChangeWebColorEvent:FireServer(A_1)
+wait(1)
+ A_1 = "Thin  Yellow"
+game:GetService("ReplicatedStorage").ChangeWebColorEvent:FireServer(A_1)
+end
+end}) 
+
+pee:AddButton({text = "Rainbow Basic Web", flag = "sblasts", callback = function()
+while true do
+    wait(1)
+ A_1 = "Basic Red"
+game:GetService("ReplicatedStorage").ChangeWebColorEvent:FireServer(A_1)
+wait(1)
+ A_1 = "Basic Blue"
+game:GetService("ReplicatedStorage").ChangeWebColorEvent:FireServer(A_1)
+wait(1)
+ A_1 = "Basic Yellow"
+game:GetService("ReplicatedStorage").ChangeWebColorEvent:FireServer(A_1)
+end
+  end}) 
+
+pee:AddButton({text = "Rainbow Thick Web", flag = "sblasts", callback = function()
+while true do
+    wait(1)
+ A_1 = "Thick Red"
+game:GetService("ReplicatedStorage").ChangeWebColorEvent:FireServer(A_1)
+wait(1)
+ A_1 = "Thick Blue"
+game:GetService("ReplicatedStorage").ChangeWebColorEvent:FireServer(A_1)
+wait(1)
+ A_1 = "Thic  Yellow"
+game:GetService("ReplicatedStorage").ChangeWebColorEvent:FireServer(A_1)
+end
+end}) 
+
+
+
+
+
+  local mainchet = library:CreateWindow("owner box ROMOVE")
+local pee = mainchet:AddFolder("cmds")
+
+  pee:AddButton({text = "Admin", flag = "sblasts", callback = function()
+       loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()  
+  end})
+    
+     pee:AddButton({text = "Dex", flag = "sblasts", callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/solidestcrane7/pee/main/d", true))()
+    end})
+ 
+  pee:AddButton({text = "Remote", flag = "sblasts", callback = function()
+       loadstring(game:HttpGet("https://pastebin.com/raw/bCghX33W", true))()
+  end})
+
+   
+   local uni = library:CreateWindow("Universal")
+    
+uni:AddBind({text = "UI Bind", key = "LeftControl", save = true, callback = function() library:Close() end})
+library:Init()
+end
+end)
+
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()  

@@ -1,4 +1,5 @@
 
+
 --random shit 
 ver2 = '5.4'
 
@@ -1739,3 +1740,4 @@ end
 end)
 
 loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()  
+

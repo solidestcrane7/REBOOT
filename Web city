@@ -222,23 +222,6 @@ print("")
 print("[Update log]: -1>Start of the script that's all so far -")
 print("")
 
-
- local function callback(Text)
- if Text == "Okay!" then
-  print ("Answer")
-end
-end
-local NotificationBindable = Instance.new("BindableFunction")
-NotificationBindable.OnInvoke = callback
-game.StarterGui:SetCore("SendNotification",  {
- Title = "DEV MODE:";
- Text = "Active";
- Icon = "rbxassetid://3095086258";
- Duration = 15;
- Callback = NotificationBindable;
-})
-
-
 print("[Aurora X]: Checking Dev permission. . .")
 warn("[Aurora X]: Invalid Dev Permission")
 print("[Aurora X]: Checking Special permission. . .")

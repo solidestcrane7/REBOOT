@@ -3437,7 +3437,7 @@ pee:AddToggle({text ="Disable game",state = false,callback = function(s)
                 return d:Disconnect()
             end
 
- A_1 = "X0XTYTYTYTYTYTX0X"
+ A_1 = game:GetService("Players").LocalPlayer
 game:GetService("ReplicatedStorage")["Screw_Event"]:InvokeServer(A_1)
  
 end)

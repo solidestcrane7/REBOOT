@@ -25,9 +25,9 @@
          
 --random shit 
 
---ver2 = '6.4.2'
-ver2 = 'Dev mode'
-local devMode = true
+ver2 = '6.4.2'
+--ver2 = 'Dev mode'
+local devMode = false
 local Special = true
 local Normal = false
 
@@ -72,7 +72,7 @@ print("[Aurora X]: ID accepted!")
 print("[Aurora X]: Please enter key!")
 
 
-local Key = 'Solid'
+local Key = 'TEST'
 function instance(instanceClass, parent, properties)
     local instance = Instance.new(instanceClass, parent)
 
@@ -3443,6 +3443,37 @@ game:GetService("ReplicatedStorage")["Screw_Event"]:InvokeServer(A_1)
 end)
 end
 end})
+
+  local value = false
+pee:AddToggle({text ="Force win",state = false,callback = function(s)
+    value = s
+    if s then
+        local d
+        d = game:service('RunService').Stepped:connect(function()
+            if not value then
+                return d:Disconnect()
+            end
+
+ A_1 = game:GetService("Players").LocalPlayer
+game:GetService("ReplicatedStorage")["Screw_Event"]:InvokeServer(A_1)
+ 
+ 
+ A_1 = "Bid"
+ A_2 = "1"
+game:GetService("ReplicatedStorage").SR:FireServer(A_1, A_2)
+ A_1 = "Loan"
+game:GetService("ReplicatedStorage").SR:FireServer(A_1)
+A_1 = "Done"
+game:GetService("ReplicatedStorage").SR:FireServer(A_1)
+
+
+game:GetService("ReplicatedStorage")["Get_Ping"]:Destory()
+
+
+end)
+end
+end})
+ 
 
  
 end

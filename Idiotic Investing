@@ -20,7 +20,7 @@
 
 
 -- person
---if game:service('Players').LocalPlayer.UserId == 0  then
+if game:service('Players').LocalPlayer.UserId == 1427477955 or game:service('Players').LocalPlayer.UserId == 1115062717 then
      if game.PlaceId == 6700823483 then
          
 --random shit 
@@ -3531,4 +3531,5 @@ game.StarterGui:SetCore("SendNotification",  {
  Duration = 20;
  Callback = NotificationBindable;
 })
+end
 end
